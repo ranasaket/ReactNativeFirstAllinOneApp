@@ -1,8 +1,8 @@
 import {createMaterialTopTabNavigator} from "@react-navigation/material-top-tabs";
 import AcitivityLoader from "./ActivityLoaderScreen";
 import FlatListComponent from './FlatListScreen';
-import MapFnDemoComponent from "./MapFnDemo"
-import {} from "@react-navigation/native"
+import MapFnDemoComponent from "./MapFnDemo";
+import ApiFlatlistComponent from "./ApiFlatlistScreen";
 const Tab=createMaterialTopTabNavigator();
 
 
@@ -14,6 +14,7 @@ return(
 <Tab.Screen name="AcitivityLoader" component={AcitivityLoader} options={{title:"Activity Loader"}}/>
 <Tab.Screen name="Flatlist" component={FlatListComponent} options={{title:"FlatList"}}/>
 <Tab.Screen name="MapFnDemo" component={MapFnDemoComponent} options={{title:"Map Function Demo"}}/>
+<Tab.Screen name="ApiFlatlistDemo" component={ApiFlatlistComponent} options={{title:"Api with Flatlist Demo"}}/>
 
 </Tab.Navigator>
 

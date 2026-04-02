@@ -40,7 +40,11 @@ export default PostApiComponent;
 
 const style = StyleSheet.create({
   input: {
-    borderRadius: 2,
+    height: 40,
+    margin: 12,
+    padding: 10,
+    borderWidth: 1,
+    borderRadius: 5,
     borderColor: 'black',
   },
 });

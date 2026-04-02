@@ -3,6 +3,7 @@ import AcitivityLoader from "./ActivityLoaderScreen";
 import FlatListComponent from './FlatListScreen';
 import MapFnDemoComponent from "./MapFnDemo";
 import ApiFlatlistComponent from "./ApiFlatlistScreen";
+import FormValidationDemoComponent from "./FormBasicValidation";
 const Tab=createMaterialTopTabNavigator();
 
 
@@ -15,6 +16,7 @@ return(
 <Tab.Screen name="Flatlist" component={FlatListComponent} options={{title:"FlatList"}}/>
 <Tab.Screen name="MapFnDemo" component={MapFnDemoComponent} options={{title:"Map Function Demo"}}/>
 <Tab.Screen name="ApiFlatlistDemo" component={ApiFlatlistComponent} options={{title:"Api with Flatlist Demo"}}/>
+<Tab.Screen name="FormValidationDemoComponent" component={FormValidationDemoComponent} options={{title:"Form Validation Demo"}}/>
 
 </Tab.Navigator>
 

@@ -15,6 +15,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import TabNavigation from "./src/TabNavigationComponent";
 import TopTabNavigation from './src/TopTabNavigationScreen';
 import MapFnDemoComponent from "./src/MapFnDemo";
+import JsonServerCrudComponent from "./src/JsonServerCrudScreen";
 
 // const RootStack = createNativeStackNavigator({
 //   screens: {
@@ -109,6 +110,7 @@ return(
       component={AcitivityLoader}
       options={{title:'Activity Loader Component Demo'}}
     />
+    <Stack.Screen name="JsonServerCrudComponent" component={JsonServerCrudComponent} options={{title:"Student Data"}} />
     <Stack.Screen
       name='ModalComponent'
       component={ModalComponent}

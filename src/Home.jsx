@@ -31,6 +31,7 @@ function Homepage(route) {
       onPress={() => navigation.navigate('FlatListComponent')}
     />
 
+<Button title="CRUD Operations JSON-server" onPress={()=> navigation.navigate('JsonServerCrudComponent')}></Button>
 <Button title="Go to Webview demo" onPress={()=> navigation.navigate('ReactnativeComponent')}></Button>
 <Button title="Go to Tab demo" onPress={()=> navigation.navigate('TabNavigation')}></Button>
 <Button title="Go to Top Tab demo" onPress={()=> navigation.navigate('TopTabNavigation')}></Button>

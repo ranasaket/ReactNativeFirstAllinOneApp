@@ -21,6 +21,10 @@ function Homepage(route) {
       title="Go to Login"
       onPress={() => navigation.navigate('Login')}
     />
+    <Button
+      title="Go to AsyncStorageComponent"
+      onPress={() => navigation.navigate('AsyncStorageComponent')}
+    />
 
     <Button
       title="Go to Radio Button Component"

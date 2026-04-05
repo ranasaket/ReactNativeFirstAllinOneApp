@@ -16,7 +16,7 @@ import TabNavigation from "./src/TabNavigationComponent";
 import TopTabNavigation from './src/TopTabNavigationScreen';
 import MapFnDemoComponent from "./src/MapFnDemo";
 import JsonServerCrudComponent from "./src/JsonServerCrudScreen";
-
+import AsyncStorageComponent from "./src/AsyncStorageScreen";
 // const RootStack = createNativeStackNavigator({
 //   screens: {
 //     Home: {
@@ -85,6 +85,13 @@ return(
         headerTitle:()=><Button title="Profile Button" />,
         headerRight:()=><Button title="Exit"/>
 
+      }}
+    />
+    <Stack.Screen
+      name='AsyncStorageComponent'
+      component={AsyncStorageComponent}
+      options={{
+        title:"AsyncStorage",
       }}
     />
     <Stack.Screen
